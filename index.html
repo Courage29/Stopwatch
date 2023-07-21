@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body onload="somefunctions()">
+    <center>
+      <div>
+        <h1 id="header">Stopwatch</h1>
+      </div>
+      <div class="firsttimer">
+        <span id="lapmin">00</span>:<span id="lapsec">00</span>:<span id="lapcentisec">00</span>
+      </div>
+      <div class="secondtimer"><span id="timemin">00</span>:<span id="timesec">00</span>:<span id="timecentisec">00</span></div>
+      </div>
+      <div id="div">
+        <button class="button" id="button1">Start</button>
+        <button class="button" id="button2">Lap</button>
+        <button class="button" id="button3">Reset</button>
+        <button class="button" id="button4">Stop</button>
+        <button class="button" id="button5">Resume</button>
+      </div>
+    </center>
+    <div id="lap"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
